@@ -1,5 +1,4 @@
 from flask import Blueprint, render_template, request, send_file, redirect, url_for
-from website import qrcode
 
 home = Blueprint('home', __name__)
 
